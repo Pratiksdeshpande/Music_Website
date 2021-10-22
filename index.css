@@ -2,8 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Rampart+One&family=Varela+Round&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Amita&family=Rampart+One&family=Varela+Round&display=swap');
 body{
-    background-image: url(/bg3.jpg);
+    background-image: url(/Assets/Backgraound_Images/backgraound\ 03.jpg);
 }
+
 *{
     margin: 0;
     padding: 0;
@@ -45,7 +46,6 @@ nav ul li{
 }
 #sett:hover{
     transform: rotate(90deg);
-    transition:  ;
 }
 
 
