@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amita&family=Rampart+One&family=Varela+Round&display=swap');
+body{
+    background-image: url(/bg3.jpg);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    position: sticky;
+    top:2px;
+    color: rgb(0, 0, 0);
+    font-family: 'Rampart One', cursive;
+    border: 20px solid #f6bd60;
+    border-radius: 36px;
+    z-index: 1;
+    opacity: 0.9;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    background: #f6bd60;
+    height: 30px;
+    padding: 2px;
+    
+}
+nav ul li{
+    padding: 10px;
+}
+.navbar-items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 20px;
+    font-size: 25px;
+    cursor: pointer;
+}
+.navbar-items:hover{
+    box-shadow:8px 8px 6px 3px rgba(38, 58, 53, 0.5);
+    border-radius: 20px;
+    transform: scale(1.1);
+}
+#sett:hover{
+    transform: rotate(90deg);
+    transition:  ;
+}
+
+
+.logo{
+    display: flex;
+    align-items: center;
+    font-family: 'Amita', cursive;
+    font-size: 34px;
+    font-weight: bolder;
+    padding: 0px 280px 0px 0px;
+}
+.logo img{
+    padding: 6px;
+    height: 42px;
+
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    margin: 20px auto;
+    min-height: 70vh;
+    width: 70%;
+    color: rgb(5, 5, 5);
+    background: #f5cac3;
+    padding: 10px;
+    border-radius: 15px;
+    opacity: 0.7;
+
+}
+.songlistArea{
+    color: #0b9c62;
+
+}
+.Bottom{
+    position: sticky;
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    opacity: 0.9;
+    justify-content: center;
+    align-items:center;
+    background: #34a0a4;  
+    bottom: 0;
+}
+#ProgressBar{
+    width: 60vw;
+    cursor: pointer;
+
+}
+
+.bottom-icons{
+    margin-top: 8px;
+} 
+.bottom-icons img {
+    margin: 0px 10px;
+    cursor: pointer;
+    
+}
